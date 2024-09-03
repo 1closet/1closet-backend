@@ -1,11 +1,10 @@
 const express = require('express');
-const dotenv = require('dotenv').config();
 const sequelize = require('../config/database');
 const userRoutes = require('../adapters/routes/userRoutes');
 const productRoutes = require('../adapters/routes/productRoutes');
 const recommendationRoutes = require('../adapters/routes/recommendationRoutes');
 
-dotenv.config();
+
 
 
 const app = express();
